@@ -67,7 +67,7 @@ while True:
         try:
             while True:
                 # make request
-                SEARCH_URL = f"https://{BRAVE_API_SEARCH}/search?q={query}&offset={offset}&count=20"
+                SEARCH_URL = f"https://{BRAVE_API_SEARCH}/search?q={query}&offset={offset}&count=20&safesearch=off&spellcheck=false"
 
                 LOG.info(f"Brave Search API Query Request: {SEARCH_URL}")
 
