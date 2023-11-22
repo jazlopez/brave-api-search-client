@@ -4,7 +4,7 @@ Brave API Python Client - Asks for input query to search results using Brave Sea
 ### Requirements
 
 ```
-  pip install requirements.txt
+  pip install -r requirements.txt
 ```
 
 ### Setup
